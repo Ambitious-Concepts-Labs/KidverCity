@@ -20,10 +20,10 @@ export default function FirebaseAuthContext(props){
     useEffect(()=>{
         if(state.listener==null){
             changeState({...state,listener:auth.onAuthStateChanged((user)=>{
-            if(userInfo)
-                changeState(oldState=>({...oldState,userDataPresent:true,user:user,auth:auth,userInfo:userInfo}));
-                else
-                changeState(oldState=>({...oldState,userDataPresent:true,userInfo:null}));
+            // if(userInfo)
+            //     changeState(oldState=>({...oldState,userDataPresent:true,user:user,auth:auth,userInfo:userInfo}));
+            //     else
+            //     changeState(oldState=>({...oldState,userDataPresent:true,userInfo:null}));
             })});
         }
 
