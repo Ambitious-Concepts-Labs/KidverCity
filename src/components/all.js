@@ -11,7 +11,9 @@ import SubHeading from "./Text/SubHeading";
 import BigParagraph from "./Text/BigParagraph";
 import BiggerParagraph from "./Text/BiggerParagraph";
 import Carousel from "./Carousel";
-
+//
+import AdminNavbar from "./Navbar/AdminNavbar";
+import Sidebar from "./Sidebar";
 export {
 	Navbar,
 	ArrowLeft,
@@ -26,4 +28,6 @@ export {
 	BigParagraph,
 	BiggerParagraph,
 	Carousel,
+	AdminNavbar,
+	Sidebar,
 };
